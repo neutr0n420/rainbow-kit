@@ -13,7 +13,7 @@ const { chains, publicClient } = configureChains(
   [mainnet, polygon, polygonMumbai],
   [
     infuraProvider({
-      apiKey: "c358621366b54f90aa8a220804e28dbe",
+      apiKey: "",
     }),
     publicProvider(),
   ]
@@ -21,7 +21,7 @@ const { chains, publicClient } = configureChains(
 
 const { connectors } = getDefaultWallets({
   appName: "streamsphere",
-  projectId: "859bca88c8fa13587201c76493609fd1",
+  projectId: "",
   chains,
 });
 
